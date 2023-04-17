@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="showData()">Get Data</button>
+    <button onclick="addData()">Add Data</button>
+    <button onclick="updateData()">Update Data</button><br>
+    <table id="display"></table>
+    <div id="add-container">
+        <div>Enter name of the animal</div>
+        <input id="add-name" placeholder="Name"><br><br>
+        <div>Enter type(how many legs)</div>
+        <input id="add-type" placeholder="Type"><br><br>
+        <div >Enter what food it eats(meat or vegan)</div>
+        <input id="add-food" placeholder="Food"><br>
+        <div id="add-message"></div>
+        <button id="sumbit-add" onclick="sumbitAddData()">Sumbit</button>
+    </div>
+    <div id="update-container">
+        <div>Enter ID you want to change</div>
+        <input id="update-id" placeholder="Enter ID"><br><br>
+        <div>Enter name</div>
+        <input id="update-name" placeholder="Name"><br><br>
+        <div>Enter type(how many legs)</div>
+        <input id="update-type" placeholder="Type"><br><br>
+        <div >Enter what food it eats(meat or vegan)</div>
+        <input id="update-food" placeholder="Food"><br>
+        <div id="update-message"></div>
+        <button id="sumbit-update" onclick="sumbitUpdateData()">Sumbit</button>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

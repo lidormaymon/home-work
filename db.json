@@ -1,0 +1,34 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "name": "wolf",
+      "type": "4 legs",
+      "food": "meat"
+    },
+    {
+      "id": 2,
+      "name": "bear",
+      "type": "4 legs",
+      "food": "meat"
+    },
+    {
+      "id": 3,
+      "name": "tiger",
+      "type": "4 legs",
+      "food": "meat"
+    },
+    {
+      "id": 4,
+      "name": "lion",
+      "type": "4 legs",
+      "food": "meat"
+    },
+    {
+      "id": 5,
+      "name": "kangroo",
+      "type": "2 legs",
+      "food": "vegan"
+    }
+  ]
+}
